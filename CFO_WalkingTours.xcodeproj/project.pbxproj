@@ -37,6 +37,8 @@
 		2683521EDC1F7AFAE99A15F3 /* Pods-CFO_WalkingTours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFO_WalkingTours.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFO_WalkingTours/Pods-CFO_WalkingTours.release.xcconfig"; sourceTree = "<group>"; };
 		4870439A1ED7463800A9A19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4870439B1ED7463800A9A19E /* OWTData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OWTData.json; sourceTree = "<group>"; };
+		4870439F1ED7491900A9A19E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		487043A11ED7492B00A9A19E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		48B906CE1ED740E600E30B98 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
 		48B906D61ED7420A00E30B98 /* AllToursViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllToursViewController.swift; sourceTree = "<group>"; };
 		48B906D71ED7420A00E30B98 /* CFOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFOViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +183,8 @@
 		48E0FF231ED73FFD009EA7AF = {
 			isa = PBXGroup;
 			children = (
+				487043A11ED7492B00A9A19E /* README.md */,
+				4870439F1ED7491900A9A19E /* LICENSE */,
 				48B906CE1ED740E600E30B98 /* podfile */,
 				48E0FF2E1ED73FFD009EA7AF /* CFO_WalkingTours */,
 				48E0FF2D1ED73FFD009EA7AF /* Products */,
@@ -200,10 +204,10 @@
 		48E0FF2E1ED73FFD009EA7AF /* CFO_WalkingTours */ = {
 			isa = PBXGroup;
 			children = (
-				4870439E1ED7463E00A9A19E /* Resources */,
 				48B906D51ED741F500E30B98 /* Controllers */,
 				48B906E61ED7421E00E30B98 /* Library */,
 				48B906D41ED741E600E30B98 /* UI */,
+				4870439E1ED7463E00A9A19E /* Resources */,
 				48B906D01ED7412E00E30B98 /* AppDelegate */,
 				48B906CD1ED740BF00E30B98 /* Supporting Files */,
 			);
