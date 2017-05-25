@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7JX-PE-qd3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -15,7 +15,7 @@
         <!--Home-->
         <scene sceneID="1Ww-DZ-1Jf">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="7JX-PE-qd3" userLabel="Home" customClass="HomeViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="7JX-PE-qd3" userLabel="Home" customClass="HomeViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wwi-6p-MnV"/>
                         <viewControllerLayoutGuide type="bottom" id="Zje-A8-RAV"/>
@@ -125,7 +125,7 @@
         <!--View Controller-->
         <scene sceneID="7bZ-jv-0CF">
             <objects>
-                <viewController id="cma-ur-sLa" customClass="CFOViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cma-ur-sLa" customClass="CFOViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E4s-Tr-YA3"/>
                         <viewControllerLayoutGuide type="bottom" id="nG4-Rf-VCQ"/>
@@ -192,13 +192,13 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
         <!--Historic Sites-->
         <scene sceneID="IYM-pB-5Oy">
             <objects>
-                <tableViewController storyboardIdentifier="PointsOfInterest" id="lUZ-is-Sty" customClass="SitesTableViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PointsOfInterest" id="lUZ-is-Sty" customClass="SitesTableViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="28" sectionFooterHeight="28" id="cBB-XJ-d0b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="siteCell" rowHeight="99" id="dtA-pS-mgU" customClass="SiteTableViewCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="siteCell" rowHeight="99" id="dtA-pS-mgU" customClass="SiteTableViewCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="99"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dtA-pS-mgU" id="kqq-iN-hrk">
@@ -261,7 +261,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
         <!--Site Detail View Controller-->
         <scene sceneID="qBs-Dr-tQx">
             <objects>
-                <viewController storyboardIdentifier="SiteDetail" id="rkB-qR-EXR" customClass="SiteDetailViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SiteDetail" id="rkB-qR-EXR" customClass="SiteDetailViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tjZ-Ra-wwe"/>
                         <viewControllerLayoutGuide type="bottom" id="IeG-g2-9q3"/>
@@ -291,7 +291,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="158" id="6Zf-ei-uyu" customClass="SiteDetailImageCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="158" id="6Zf-ei-uyu" customClass="SiteDetailImageCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="72" width="375" height="158"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Zf-ei-uyu" id="cU8-aI-A21">
@@ -316,7 +316,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                             <outlet property="siteImage" destination="js5-Um-2sX" id="vxW-4J-8NS"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="wrappingTextCell" id="ics-cA-2b3" customClass="SiteDetailWrappingTextCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="wrappingTextCell" id="ics-cA-2b3" customClass="SiteDetailWrappingTextCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="230" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ics-cA-2b3" id="RWP-pR-oZs">
@@ -341,7 +341,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                             <outlet property="wrappingLabel" destination="eGA-Hj-3Ma" id="mbi-yk-qJf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mapCell" rowHeight="169" id="YCC-8z-LtU" customClass="SiteDetailMapViewCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mapCell" rowHeight="169" id="YCC-8z-LtU" customClass="SiteDetailMapViewCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="274" width="375" height="169"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YCC-8z-LtU" id="EEw-QT-l1t">
@@ -376,7 +376,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                             <outlet property="mapView" destination="IpW-bx-bkl" id="lh5-b1-0W0"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="likesCell" id="kB7-Yx-vPN" customClass="SiteDetailLikesCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="likesCell" id="kB7-Yx-vPN" customClass="SiteDetailLikesCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="443" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kB7-Yx-vPN" id="71y-zz-r2F">
@@ -410,14 +410,14 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                             <outlet property="thumbsImage" destination="LZb-c7-tfw" id="GyB-8Q-0Vw"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tagsCell" rowHeight="83" id="m6a-7t-Ytj" customClass="SiteDetailTagsCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tagsCell" rowHeight="83" id="m6a-7t-Ytj" customClass="SiteDetailTagsCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="487" width="375" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m6a-7t-Ytj" id="wO5-qS-PIc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IrP-xi-I2l" customClass="TagStackView" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IrP-xi-I2l" customClass="TagStackView" customModule="CFO_WalkingTours" customModuleProvider="target">
                                                     <rect key="frame" x="24" y="12" width="327" height="67"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -464,7 +464,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
         <!--All Tours-->
         <scene sceneID="QsS-AX-h30">
             <objects>
-                <viewController id="Zbz-fK-we8" customClass="AllToursViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zbz-fK-we8" customClass="AllToursViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4lV-Pu-pP7"/>
                         <viewControllerLayoutGuide type="bottom" id="ekJ-Kz-KUY"/>
@@ -483,7 +483,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                     <inset key="sectionInset" minX="8" minY="8" maxX="8" maxY="8"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="tourCellId" id="TB4-eG-cqT" customClass="AllToursCollectionViewCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" contentMode="center" reuseIdentifier="tourCellId" id="TB4-eG-cqT" customClass="AllToursCollectionViewCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="98" y="8" width="179" height="214"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -548,7 +548,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
         <!--Tour Detail Table View Controller-->
         <scene sceneID="3e4-aK-bc6">
             <objects>
-                <tableViewController id="CV1-wg-KEY" customClass="TourDetailTableViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="CV1-wg-KEY" customClass="TourDetailTableViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nd5-ba-Ci6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -562,7 +562,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="662-K4-8Ex">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                            <rect key="frame" x="16" y="0.0" width="344" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -571,7 +571,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TourMapCell" rowHeight="181" id="gVM-D1-ip7" customClass="TourDetailMapCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TourMapCell" rowHeight="181" id="gVM-D1-ip7" customClass="TourDetailMapCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="181"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gVM-D1-ip7" id="l6e-Y9-kXU">
@@ -601,7 +601,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                     <outlet property="mapView" destination="0Ut-xQ-0vo" id="b97-RI-bFm"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TourSiteCell" rowHeight="99" id="nN1-GX-VjX" customClass="SiteTableViewCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TourSiteCell" rowHeight="99" id="nN1-GX-VjX" customClass="SiteTableViewCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="253" width="375" height="99"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nN1-GX-VjX" id="IgE-1P-ZfV">
@@ -737,7 +737,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
         <!--Tours-->
         <scene sceneID="QM1-VH-RoB">
             <objects>
-                <viewController storyboardIdentifier="MainTours" id="Izj-qE-c9w" customClass="MainViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainTours" id="Izj-qE-c9w" customClass="MainViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mmT-yr-4Jd"/>
                         <viewControllerLayoutGuide type="bottom" id="gAK-fw-CUi"/>
@@ -750,7 +750,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="toursCellId" rowHeight="195" id="Zcl-VJ-m53" customClass="SideScrollingTableViewContentCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="toursCellId" rowHeight="195" id="Zcl-VJ-m53" customClass="SideScrollingTableViewContentCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="195"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zcl-VJ-m53" id="SgY-ZR-cxj">
@@ -795,7 +795,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
                                                         <inset key="sectionInset" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
                                                     </collectionViewFlowLayout>
                                                     <cells>
-                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="itemCell" id="UuK-Km-sUN" customClass="SideScrollingItemCollectionViewCell" customModule="CFOOrlandoWalkingTours" customModuleProvider="target">
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="itemCell" id="UuK-Km-sUN" customClass="SideScrollingItemCollectionViewCell" customModule="CFO_WalkingTours" customModuleProvider="target">
                                                             <rect key="frame" x="8" y="0.0" width="100" height="149.5"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1041,7 +1041,7 @@ See what kind of things brigades do, or watch the inspirational TED talk given b
         <!--Map-->
         <scene sceneID="gTO-e2-yYG">
             <objects>
-                <viewController storyboardIdentifier="Map" id="sLB-9i-lIe" customClass="MapViewController" customModule="CFOOrlandoWalkingTours" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Map" id="sLB-9i-lIe" customClass="MapViewController" customModule="CFO_WalkingTours" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2dZ-J1-dfC"/>
                         <viewControllerLayoutGuide type="bottom" id="H5W-h6-HJd"/>
